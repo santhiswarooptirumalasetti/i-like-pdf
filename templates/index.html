@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>I Like PDF – PDF to Word Converter</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+
+<!-- NAVBAR -->
+<div class="navbar">
+    I Like PDF
+</div>
+
+<!-- MAIN CONTENT -->
+<div class="main">
+    <div class="card">
+        <h1>PDF to Word</h1>
+        <p>Convert your PDF files into editable Word documents</p>
+
+        <form action="/convert" method="post" enctype="multipart/form-data">
+            <input type="file" name="pdf" accept=".pdf" required>
+            <button type="submit">Convert PDF to Word</button>
+        </form>
+    </div>
+</div>
+
+</body>
+</html>
