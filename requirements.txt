@@ -2,5 +2,5 @@ flask==2.2.5
 pdf2docx==0.5.8
 PyMuPDF==1.22.5
 python-docx==1.1.0
-opencv-python-headless==4.13.0.90
-numpy==1.21.6
+opencv-python-headless==4.8.1.78
+numpy==1.23.5
